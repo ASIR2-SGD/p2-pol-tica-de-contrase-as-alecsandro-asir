@@ -83,16 +83,26 @@ vagrant@generic-sad:~$ echo "xR5M_U7j" | pwscore
 #### Restriciones y Pruebas
 
  ```bash
-   minlen = 10
+   minlen = 12
    dictcheck = 0 
-   ucredit = -1 
+   ucredit = -2
    dcredit = -1
    lcredit = -1
    ocredit = -1
    ```
 
 ```bash 
-vagrant@generic-sad:~$ echo "xR5M_U7j" | pwscore 
-40
+vagrant@generic-sad:~$ echo "=GtrA_01hy* ̣" | pwscore 
+63
+```
+
+```bash 
+vagrant@generic-sad:~$ echo "Gxd_\@·A15* ̣" | pwscore 
+72
+```
+
+```bash 
+vagrant@generic-sad:~$ echo "Gxd_\@·A[5* ̣" | pwscore 
+75
 ```
 
